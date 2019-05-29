@@ -1,4 +1,4 @@
-FROM nvidia/cuda:8.0-cudnn6-devel-ubuntu16.04
+FROM 9337ecb4311e
 LABEL maintainer caffe-maint@googlegroups.com
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
